@@ -1,0 +1,16 @@
+{
+  "name": "Tabla fichas facturas",
+  "description": "Vista de facturas en formato ficha",
+  "devMode": false,
+  "components": [
+    {
+      "id": "tablaFichas",
+      "name": "Tabla fichas facturas",
+      "description": "Vista de facturas en formato ficha",
+      "resource": {
+        "js": "https://fastidious-lolly-26480a.netlify.app/index.js",
+        "config": "https://fastidious-lolly-26480a.netlify.app/vizconfig.json"
+      }
+    }
+  ]
+}

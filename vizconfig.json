@@ -1,0 +1,27 @@
+{
+  "data": [
+    {
+      "id": "concepts",
+      "label": "Datos",
+      "elements": [
+        { "id": "nfra",           "label": "N Fra",           "type": "DIMENSION", "options": { "min": 1, "max": 1 } },
+        { "id": "tipo_documento", "label": "Tipo Documento",  "type": "DIMENSION", "options": { "min": 1, "max": 1 } },
+        { "id": "cliente",        "label": "Cliente Fra",     "type": "DIMENSION", "options": { "min": 1, "max": 1 } },
+        { "id": "ffra",           "label": "F Fra",           "type": "DIMENSION", "options": { "min": 0, "max": 1 } },
+        { "id": "siniestro",      "label": "Siniestro",       "type": "DIMENSION", "options": { "min": 0, "max": 1 } },
+        { "id": "fallecido",      "label": "Fallecido",       "type": "DIMENSION", "options": { "min": 0, "max": 1 } },
+        { "id": "tanatorio",      "label": "TN",              "type": "DIMENSION", "options": { "min": 0, "max": 1 } },
+        { "id": "destino",        "label": "Dest.",           "type": "DIMENSION", "options": { "min": 0, "max": 1 } },
+        { "id": "idexp",          "label": "Id Exp",          "type": "DIMENSION", "options": { "min": 0, "max": 1 } },
+        { "id": "fsalida",        "label": "F Salida",        "type": "DIMENSION", "options": { "min": 0, "max": 1 } },
+        { "id": "fenv",           "label": "F Env",           "type": "DIMENSION", "options": { "min": 0, "max": 1 } },
+        { "id": "fvenc",          "label": "F Venc",          "type": "DIMENSION", "options": { "min": 0, "max": 1 } },
+        { "id": "base",           "label": "Base",            "type": "METRIC",    "options": { "min": 0, "max": 1 } },
+        { "id": "suplidos",       "label": "Suplidos",        "type": "METRIC",    "options": { "min": 0, "max": 1 } },
+        { "id": "totfra",         "label": "Tot Fra",         "type": "METRIC",    "options": { "min": 0, "max": 1 } },
+        { "id": "pendiente",      "label": "€ Pendiente",     "type": "METRIC",    "options": { "min": 0, "max": 1 } }
+      ]
+    }
+  ],
+  "style": []
+}
