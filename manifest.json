@@ -1,5 +1,9 @@
 {
   "name": "Tabla fichas facturas",
+  "logoUrl": "https://vevabenito-netizen.github.io/viz-facturas/icon.png",
+  "organizationName": "Interfunerarias",
+  "organizationUrl": "https://interfunerarias.es",
+  "supportUrl": "https://interfunerarias.es",
   "description": "Vista de facturas en formato ficha",
   "devMode": false,
   "components": [
@@ -7,9 +11,11 @@
       "id": "tablaFichas",
       "name": "Tabla fichas facturas",
       "description": "Vista de facturas en formato ficha",
+      "iconUrl": "https://vevabenito-netizen.github.io/viz-facturas/icon.png",
       "resource": {
-        "js": "https://fastidious-lolly-26480a.netlify.app/index.js",
-        "config": "https://fastidious-lolly-26480a.netlify.app/vizconfig.json"
+        "js": "https://vevabenito-netizen.github.io/viz-facturas/index.js",
+        "config": "https://vevabenito-netizen.github.io/viz-facturas/vizconfig.json",
+        "css": ""
       }
     }
   ]
